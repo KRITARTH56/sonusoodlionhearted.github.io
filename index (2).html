@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>
+videos</title>
+<style>
+*
+{
+         margin:0;
+         padding:0;
+}
+.dim
+{
+     background-color:light-blue;
+     height:100vh;
+}
+.dam
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto; 
+    z-index: -1;
+}
+@media (max-aspect-ratio:16/9)
+{
+           .dam
+            {
+               width:auto;
+               height:100;
+             }
+}
+@media (max-aspect-ratio:16/9)
+{
+           .dam
+            {
+               width:auto;
+               height:100;
+}
+}
+h1
+{    font-size:60px;
+     text-align:center;
+     color:white
+   }
+
+video
+{
+     width:200px;
+     height:150px;
+     margin-left:200px;
+     padding:30px;
+     border:5px solid green; 
+     background-color:black;
+     margin-top:60px;
+     
+         
+}
+video:hover
+{
+     width:300px;
+     height:200px;
+     margin-left:200px;
+     padding:20px;
+     border:5px solid black;    
+}
+.sam
+{
+          position:relative;
+            top:10px;
+          margin-left:400px;
+}
+.jam
+{
+          position:relative;
+            top:10px;
+          margin-left:280px;
+}
+.menu {
+        background-color:white;
+        color:white;
+        text-align:center;
+        height:100px;
+        font-size:30px;
+        margin-top:50px;
+        
+        
+
+}
+.menu ul li
+{
+  width:200px;
+    margin: 15px;
+    padding:  5px;
+    float:left;
+}
+.menu ul li
+   {   text-decoration: none;
+     color: white;
+}
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  align:center;
+  position:relative;
+  
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  margin-top:12px;
+  background:#3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram{
+  background: pink;
+  color: white;
+
+}
+</style>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="dim">
+<video class="dam" autoplay loop muted plays-inline>
+<source src="space journey.mp4" type="video/mp4">
+</video>
+<h1>VIDEOS</h1>
+<video controls="controls"  >
+<source src="video1.mp4"  video="web/mp4">
+</video>
+<video controls="controls" >
+<source src="video2.mp4"  video="web/mp4">
+</video>
+<video controls="controls"   >
+<source src="video3.mp4"  video="web/mp4">
+</video>
+
+<video controls="controls" class="sam">
+<source src="video4.mp4"  video="web/mp4">
+</video>
+<video controls="controls"  class="jam">
+<source src="video5.mp4"  video="web/mp4">
+</video>
+<footer>
+<div class="menu">
+<ul>
+<a href="https://www.facebook.com/ActorSonuSood/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/SonuSood" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/sonu_sood/" class="fa fa-instagram"></a>
+
+
+</ul>
+</div>
+</footer>
+</body>
+</html>
